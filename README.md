@@ -12,8 +12,8 @@
 - `cd address-book-api`
 - `git submodule update --recursive --init`
 - Allow the start/stop scripts to be executed
-  - `chmod start_dev.sh 744`
-  - `chmod stop_dev.sh 744`
+  - `chmod +x start.sh`
+  - `chmod +x stop.sh`
 - Start/stop the app in local Docker development environment mode
   - `./start.sh`
   - `./stop.sh`
