@@ -6,6 +6,21 @@
 - Requires users to register and authenticate using JWT
 - Users can then post contacts into the contacts DB in Firebase
 
+## Services
+
+Each service has its own submodule repository.
+
+- Gateway
+  - Handles user authentication/authorization and proxies requests to other services
+- Users
+  - Handles user registration and login (retrieval of new JWT)
+  - Stores users in MongoDB (locally) or Mongo Atlas (on prod)
+- Contacts
+  - Handles storing of contacts into user's contact book in Firebase
+  - Stores contacts in Firebase Realtime DB Emulator (locally) or in Firebase Realtime DB (on prod)
+- Docs
+  - Swagger UI API documentation
+
 ## Run locally
 
 - `git clone https://github.com/Tackx/address-book-api`
