@@ -1,0 +1,7 @@
+node_modules
+*.key
+dist
+coverage
+logs
+db-data
+todo.md

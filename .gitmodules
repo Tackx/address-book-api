@@ -1,0 +1,12 @@
+[submodule "address-book-api-gateway"]
+	path = address-book-api-gateway
+	url = https://github.com/Tackx/address-book-api-gateway
+[submodule "address-book-api-users"]
+	path = address-book-api-users
+	url = https://github.com/Tackx/address-book-api-users
+[submodule "address-book-api-contacts"]
+	path = address-book-api-contacts
+	url = https://github.com/Tackx/address-book-api-contacts
+[submodule "address-book-api-docs"]
+	path = address-book-api-docs
+	url = https://github.com/Tackx/address-book-api-docs
